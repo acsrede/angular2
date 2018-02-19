@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <table class="table table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th>IMG</th>
+          <th>NOME</th>
+          <th>TELEFONES</th>
+          <th>BAIRRO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let lj of lojas">
+          <td>{{lj.img}}</td>
+          <td>{{lj.nome}}</td>
+          <td>{{lj.telefones}}</td>
+          <td>{{lj.bairro}}</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
